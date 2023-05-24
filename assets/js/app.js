@@ -1,5 +1,4 @@
-const size = 40
-const rows = 40
+rows = 40
 const cols = 40
 
 let started = false // Set to true when use clicks start
