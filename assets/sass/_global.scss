@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#world {
+    padding: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+table {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+td {
+    border: 1px solid rgb(27, 25, 25);
+}
+
+td.dead {
+    background-color: transparent;
+}
+
+td.alive {
+    background-color: blue;
+}
